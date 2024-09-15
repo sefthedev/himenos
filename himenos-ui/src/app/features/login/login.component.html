@@ -1,0 +1,35 @@
+<div class="book-container">
+  <div class="book">
+    <img [src]="pages[currentPage]" class="page">
+  </div>
+</div>
+<div class="logo-container" [ngClass]="currentPage > 5 ? 'hide' : ''">
+  <img src="assets/logo-color.svg" class="logo" alt="">
+  <div class="description-container">
+    <h1>All your notes on kady...</h1>
+    <p>
+      kady is a Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, at consectetur culpa cupiditate ea
+      iusto numquam quam quas quod reiciendis repellendus temporibus, voluptates! Aut beatae maiores quia quos totam
+      voluptatibus?
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque cumque ducimus ea eaque, eveniet harum
+      inventore iste maxime molestias necessitatibus nostrum, quas, quasi quis ratione reiciendis reprehenderit
+      similique voluptas?
+    </p>
+  </div>
+</div>
+<div class="video-container" >
+  <video autoplay muted loop class="background-video" src="assets/vids/library.mp4" type="video/mp4">
+    <source>
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+
+<kady-signin-form [ngClass]="currentPage < 15 ? 'hide' : ''">
+
+</kady-signin-form>
+
+
+<kady-signup-form [ngClass]="currentPage < 15 ? 'hide' : ''">
+
+</kady-signup-form>

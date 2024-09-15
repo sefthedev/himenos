@@ -1,0 +1,10 @@
+<form [formGroup]="signinForm" class="signinForm">
+  <label for="username">Username: <input id="username" type="text" formControlName="username" placeholder="{{placeholderUsername}}"> </label>
+
+  <label for="password">Password: <input id="password" type="password" formControlName="password" placeholder="your password..."> </label>
+
+
+  <kady-button buttonType="primary" (buttonClick)="onSubmit()">
+    Sign-in
+  </kady-button>
+</form>

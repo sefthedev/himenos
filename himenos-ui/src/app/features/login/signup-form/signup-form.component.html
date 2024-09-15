@@ -1,0 +1,11 @@
+<form [formGroup]="signupForm" class="signinForm">
+  <label for="newUsername">Username: <input id="newUsername" type="text" formControlName="username" placeholder="your username..."> </label>
+
+  <label for="newEmail">Email: <input id="newEmail" type="text" formControlName="email" placeholder="your email..."> </label>
+
+  <label for="newPassword">Password: <input id="newPassword" type="password" formControlName="password" placeholder="your password..."> </label>
+
+  <kady-button buttonType="primary">
+    Sign-up
+  </kady-button>
+</form>

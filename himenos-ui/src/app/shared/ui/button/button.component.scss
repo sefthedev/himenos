@@ -1,0 +1,23 @@
+button {
+  width: 100%;
+  outline: none;
+  border-radius: var(--dynamic-border-radius);
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+}
+
+.primary {
+  font-size: xx-large;
+  background: #4C2E05;
+  border-radius: 6px;
+  border: none;
+  outline: black;
+  color: white;
+  &:hover{
+    background-color: #AEBD93;
+  }
+  &:focus{
+    background-color: #7A8450;
+  }
+}
+

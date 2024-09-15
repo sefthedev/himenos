@@ -1,0 +1,105 @@
+.book-container {
+  height: 4000px;
+
+  .book {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    perspective: 5000px;
+
+  }
+
+  .page {
+    backface-visibility: hidden;
+    width: 100vw;
+    transition: transform 1s;
+
+  }
+}
+
+
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensure the video is behind other content */
+  overflow: hidden;
+
+  .background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+  }
+
+}
+
+
+.logo-container {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+
+  .description-container {
+    position: fixed;
+    width: 25vw;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+  }
+
+  .logo {
+    position: fixed;
+    width: 25vw;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+
+  &.hide {
+    display: none;
+  }
+}
+
+kady-signin-form {
+
+  z-index: 10;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 25vw;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+
+
+  &.hide {
+    display: none;
+  }
+}
+
+kady-signup-form {
+
+  z-index: 10;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 25vw;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+
+
+  &.hide {
+    display: none;
+  }
+}
+
+

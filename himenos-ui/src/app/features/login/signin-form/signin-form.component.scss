@@ -1,0 +1,19 @@
+.signinForm {
+  display: flex;
+  flex-direction:column;
+  font-size: xx-large;
+  font-family: "Playwrite NG Modern", cursive;
+  input {
+    border: none;
+    background-color: transparent;
+    font-size: x-large;
+    font-family: "Playwrite NG Modern", cursive;
+
+    &:focus-visible{
+      outline: none;
+    }
+  }
+
+  kady-button {
+  }
+}
