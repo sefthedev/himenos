@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "kady-ui": {
+    "himenos-ui": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -12,12 +12,12 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "kady",
+      "prefix": "himenos",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/kady-ui",
+            "outputPath": "dist/himenos-ui",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "kady-ui:build:production"
+              "buildTarget": "himenos-ui:build:production"
             },
             "development": {
-              "buildTarget": "kady-ui:build:development"
+              "buildTarget": "himenos-ui:build:development"
             }
           },
           "defaultConfiguration": "development"

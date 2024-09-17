@@ -1,0 +1,26 @@
+# compiled output
+dist/
+tmp/
+out-tsc/
+out-tsc-e2e/
+
+# SystemJS
+systemjs.config.js
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+.vscode/
+.history/
+
+# IDE - JetBrains
+*.iml
+*.iws
+*.ipr
+
+# Angular
+.angular/
