@@ -22,3 +22,5 @@ systemjs.config.js
 *.iws
 *.ipr
 
+# Angular
+.angular/
