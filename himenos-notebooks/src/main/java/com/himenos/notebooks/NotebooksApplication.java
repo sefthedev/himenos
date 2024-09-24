@@ -1,4 +1,4 @@
-package com.kady.notebooks;
+package com.himenos.notebooks;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

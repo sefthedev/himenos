@@ -1,4 +1,4 @@
-package com.kady.notebooks.config;
+package com.himenos.notebooks.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
