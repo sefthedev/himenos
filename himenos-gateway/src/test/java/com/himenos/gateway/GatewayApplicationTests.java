@@ -1,4 +1,4 @@
-package com.kady.gateway;
+package com.himenos.gateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
